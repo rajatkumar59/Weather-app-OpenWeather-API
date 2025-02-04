@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forcasting App</title>
+
+    <!--box icons(for icons)-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="search">
+        <input type="text" placeholder="City Name" />
+        <button class="btn">Search</button>
+      </div>
+      <div class="data-wrapper">
+        <i class="bx bx-cloud icon"></i>
+        <h1 class="temp">30°C</h1>
+        <div class="loc">
+          <i class="fas fa-location-dot"></i>
+          <p class="city">Bengaluru</p>
+        </div>
+        <div class="more">
+          <div class="more-btn">
+            <p>More Info</p>
+            <i class="bx bx-chevron-down"></i>
+          </div>
+          <div class="more-data">
+            <div class="row">
+              <h3>Temp :-</h3>
+              <p>min : <span class="min-temp">29°C</span></p>
+              <p>max : <span class="max-temp">30°C</span></p>
+            </div>
+            <div class="row">
+              <p><b>Humidity : </b><span class="humidity">86%</span></p>
+              <p><b>Wind : </b><span class="wind">3.6km/h</span></p>
+              <p><b>Pressure : </b><span class="pressure">0.99atm</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
