@@ -1,6 +1,6 @@
 let moreBtn = document.querySelector(".more-btn");
 let input = document.querySelector("input");
-let key = "your-api-key-here";
+// let key = "your-api-key-here";
 let apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&";
 
 // Toggle more info section
