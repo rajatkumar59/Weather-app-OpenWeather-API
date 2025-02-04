@@ -26,7 +26,7 @@ A simple and user-friendly weather application that provides real-time weather u
 
 2. **Navigate to the project directory**
    ```sh
-   cd weather-app
+   cd Weather-Forecast-App-in-HTML-CSS-and-JavaScript
    ```
 
 3. **Open `index.html` in your browser**
@@ -47,7 +47,7 @@ To use the OpenWeather API, you need an API key:
 
 ## Screenshots 🖼️
 
-![Weather App Screenshot](screenshot.png)
+![Weather App Screenshot](image.png)
 
 ## Future Enhancements 🚀
 
