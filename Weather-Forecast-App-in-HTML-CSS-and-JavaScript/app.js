@@ -1,6 +1,6 @@
 let moreBtn = document.querySelector(".more-btn");
 let input = document.querySelector("input");
-const key = process.env.NEXT_PUBLIC_WEATHER_API_KEY;
+let key = "f814c3568077ab90ef5cb875c677116a";
 let apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&";
 
 // Toggle more info section
